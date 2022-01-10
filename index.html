@@ -456,5 +456,28 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBjYojoqJUev6MfuakvlZLxRY_UiNxgdVk",
+    authDomain: "achalmahale-github.firebaseapp.com",
+    projectId: "achalmahale-github",
+    storageBucket: "achalmahale-github.appspot.com",
+    messagingSenderId: "400089462799",
+    appId: "1:400089462799:web:c5851ce0090516753c8b7a",
+    measurementId: "G-QPF0JX7XSM"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     </body>
 </html>
