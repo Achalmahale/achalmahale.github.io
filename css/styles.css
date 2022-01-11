@@ -640,20 +640,23 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
-
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
-  }
+
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+  }
+  }.socials{
+    display: unset;
   }
 }
 @media (min-width: 1200px) {
@@ -11346,8 +11349,8 @@ html {
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
-  width: 3.25rem;
-  height: 3.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
   font-size: 1.25rem;
   justify-content: center;
   align-items: center;
