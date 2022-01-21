@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #dd1414;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #ed3737;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #dd1414;
   width: 40px;
   height: 40px;
   border-radius: 50px;
